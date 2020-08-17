@@ -1,0 +1,23 @@
+{
+  "name": "postmates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "migrate": "postgrator --config postgrator-config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.5-next2",
+    "node": "^14.8.0",
+    "pg": "^8.3.0"
+  },
+  "devDependencies": {
+    "postgrator-cli": "^3.2.0"
+  }
+}
